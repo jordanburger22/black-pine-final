@@ -1,0 +1,494 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 209, 209);
+  font-family: 'Raleway', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1451550884791-8cc10333cc1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=749&q=80');
+  background-size: cover;
+
+}
+
+
+button {
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
+  color: white;
+}
+
+/* Header */
+
+.nav-bar {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding-left: 10px;
+}
+
+.nav-logo {
+  height: 8vh;
+  align-self: center;
+}
+
+.nav-buttons {
+  margin-right: 10px;
+}
+
+.nav-button {
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+.nav-button:hover {
+  background-color: rgb(31, 30, 30);
+}
+
+/* App */
+
+.main-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+  background-color: white;
+}
+
+.main-top {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-top>h1 {
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+.main-top>h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.service-list {
+  display: flex;
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 20px;
+  height: 25vh;
+  padding: 5px;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.service-list>img {
+  width: 15vw;
+  border-radius: 20px;
+  height: 20vh;
+  align-self: center;
+}
+
+.service-list>div {
+  margin-left: 5%;
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+  font-size: 25px;
+}
+
+.service-list>div>h4 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+}
+
+.service-list>div>p {
+  font-size: 15px;
+}
+
+.service-list>div>h3 {
+  margin-bottom: 5px;
+}
+
+.massage-style {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.footer-container {
+  height: 100px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+  font-size: 10px;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-row2 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  width: 50%;
+  padding: 20px;
+
+}
+
+.contact-button {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  margin: 5px;
+}
+
+.contact-input {
+  width: 80%;
+  margin-bottom: 5px;
+  height: 50px;
+}
+
+.contact-info {
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.contact-logo {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.contact-row1 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.contact-row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.massage-edit-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.massage-edit-toggle>button {
+  width: 25%;
+}
+
+.massage-edit-toggle>input {
+  width: 100%;
+}
+
+.massage-edit-toggle>textarea {
+  width: 100%;
+}
+
+.massage-admin-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.massage-admin-btns>button {
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
+  color: white;
+}
+
+.services-admin-btns {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  justify-self: flex-end;
+  align-items: flex-end;
+}
+
+.services-admin-btns>button {
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
+  color: white;
+}
+
+.business-admin-btns {
+  margin-bottom: 5px;
+}
+
+.business-admin-btns>button {
+  background-color: rgb(44, 43, 43);
+  border-radius: 5px;
+  color: white;
+}
+
+.contact-p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+}
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+
+  /* Adjustments for the header */
+  .nav-bar {
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-buttons {
+    margin: 10px 0;
+    display: flex;
+  }
+
+  .nav-button {
+    margin-right: 5px;
+  }
+
+  /* Adjustments for the main container */
+  .main-container {
+    margin: 5% 5%;
+    border-radius: 5px 5px;
+  }
+
+  .main-top {
+    text-align: center;
+  }
+
+  .main-top>h1 {
+    font-size: 30px;
+  }
+
+  .main-top>h3 {
+    font-size: 18px;
+  }
+
+  /* Adjustments for the service list */
+  .service-list {
+    flex-direction: column;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+  }
+
+  .service-list>img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-list>div {
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* Contact */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  .contact-form-container {
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+
+  .contact-input {
+    width: 100%;
+  }
+
+  .contact-row1,
+  .contact-row3 {
+    padding: 10px;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  .contact-row3{
+    justify-content: space-around;
+
+  }
+
+  .contact-button{
+    width: 80px;
+  }
+
+}
+
+/* Media query for cell phones in landscape orientation */
+@media (max-width: 768px) and (orientation: landscape) {
+
+  /* Adjustments for the header */
+  .nav-bar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-buttons {
+    margin: 10px 0;
+    display: flex;
+  }
+
+  .nav-button {
+    margin-right: 5px;
+  }
+
+  /* Adjustments for the main container */
+  .main-container {
+    margin: 5% 5%;
+    border-radius: 5px 5px;
+  }
+
+  .main-top {
+    text-align: center;
+  }
+
+  .main-top>h1 {
+    font-size: 30px;
+  }
+
+  .main-top>h3 {
+    font-size: 18px;
+  }
+
+  /* Adjustments for the service list */
+  .service-list {
+    flex-direction: column;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+  }
+
+  .service-list>img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-list>div {
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /* Contact */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  .contact-form-container {
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .contact-input {
+    width: 100%;
+  }
+
+  .contact-row1,
+  .contact-row3 {
+    padding: 10px;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  .contact-row3 {
+    justify-content: space-around;
+  }
+
+  .contact-button {
+    width: 80px;
+  }
+}
