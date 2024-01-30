@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 mongoose.set('strictQuery', true)
-mongoose.connect("mongodb+srv://jordanburger22:.5HC5.FQHsqYVz8@cluster0.cihycu0.mongodb.net/test", () => console.log('connected to database'))
+mongoose.connect(process.env.MONGO_URI, () => console.log('connected to database'))
 
 
 app.use('/api/services', require('./routes/serviceRouter'))
